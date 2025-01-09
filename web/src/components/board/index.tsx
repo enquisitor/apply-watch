@@ -12,6 +12,7 @@ import { Spinner } from '../shared/spinner';
 import { useVacancies } from '@/lib/queries';
 
 import { Vacancy } from '@/types';
+
 export function Board() {
   const { vacancies, isLoading } = useVacancies();
 

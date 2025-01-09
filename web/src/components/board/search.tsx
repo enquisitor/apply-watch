@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 
 import { Input } from '@/components/ui/input';
-import { Icons } from '@/components//ui/icons';
+import { Icons } from '@/components/ui/icons';
 
 interface BoardSearchProps {
   searchQuery: string;
